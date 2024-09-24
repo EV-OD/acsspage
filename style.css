@@ -91,7 +91,7 @@ h1{
 }
 
 strong{
-    color:rgb(199, 86, 10);
+    color:#CCFF6D;
     margin:5px 0;
     background-color:rgb(57, 59, 85);
     box-sizing: border-box;
@@ -114,4 +114,7 @@ ul{
 .syntax_detail{
     margin-top:20px;
     transition: top 0.2s ease;
+}
+.syntax_detail .detail{
+    /* height: 0px; */
 }

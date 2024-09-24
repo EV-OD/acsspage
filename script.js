@@ -9,9 +9,9 @@ let syntax_detail_height = getComputedStyle(detail2).getPropertyValue("height")
 
 
 let detail_height = getComputedStyle(detail).getPropertyValue("height")
-syntax_detail.style.top =  detail_height
-detail.style.height = detail_height
-let install_status = true
+syntax_detail.style.top =  0
+detail.style.height = 0
+let install_status = false
 icon_btn.onclick = () =>{
     if(!install_status){
         detail.style.height = detail_height
